@@ -1,9 +1,3 @@
-// www.roboindia.com //
-
-//Buy Arduino Multipurposae Kit : https://amzn.to/2IRQtae   //
-//Technical Enquiry: support@roboindia.com  //
-
-
 #include <HCSR04.h>
 #include <Servo.h>
 
