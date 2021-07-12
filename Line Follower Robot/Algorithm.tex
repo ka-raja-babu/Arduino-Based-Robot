@@ -143,11 +143,49 @@ columns=fullflexible
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 \tableofcontents
+
 \section{ALGORITHM}
 \subsection{\textbf{Components}}
 \url{https://github.com/ka-raja-babu/Arduino-Based-Robot/blob/main/Line%20Follower%20Robot/Component%20%20List.pdf}
 \subsection{\textbf{Wiring Diagram}}
 \url{https://github.com/ka-raja-babu/Arduino-Based-Robot/blob/main/Line%20Follower%20Robot/Wiring%20Diagram.pdf}
+
+\numberwithin{table}{section}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|} 
+\hline
+Motor Shield & Left IR Sensor  \\
+\hline
+D7 & D \\ 
+\hline
+GND & GND \\ 
+\hline
+5V & 5V \\ 
+\hline
+\end{tabular}
+\caption{Connection for Left IR Sensor}
+\label{tab:table1}
+\end{table}
+
+\numberwithin{table}{section}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|} 
+\hline
+Motor Shield & Right IR Sensor  \\
+\hline
+D8 & D \\ 
+\hline
+GND & GND \\ 
+\hline
+5V & 5V \\ 
+\hline
+\end{tabular}
+\caption{Connection for Right IR Sensor}
+\label{tab:table1}
+\end{table}
+
 \subsection{\textbf{Arduino Code}}
 \begin{itemize}
     \item Connect the Arduino uno board to Laptop/PC using USB cable.
@@ -164,6 +202,7 @@ columns=fullflexible
     \item When IR sensor senses white surface, then arduino gets 1 as input and when sensor senses black surface, arduino gets 0 as input.
     \item IR sensor can be calibrated according to need of the user.
 \end{enumerate}
+\newpage
 \subsection{\textbf{Images}}
 
 \numberwithin{figure}{section}
