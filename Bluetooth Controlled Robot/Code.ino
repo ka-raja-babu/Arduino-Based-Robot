@@ -1,6 +1,3 @@
-//Robo India tutorial on Controlling Arduino with Android
-//https://www.roboindia.com/tutorials/
-
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(7, 8); // RX, TX
